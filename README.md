@@ -54,7 +54,7 @@ Data background information:
 
 
 ## Analysis (run_analysis.R)
-This script will perform a cleaning and analysis on downloaded data and output a summary data file
+This script will perform a cleaning and analysis on downloaded data and output a summary data file. Below describes the steps the script takes to complete the mandated tasks.
 
 
 #### STEP 0 - Download the required dataset into our WD:
