@@ -7,6 +7,7 @@ The following explains all variables of the 'data_summary' table.
 - `subject` - The ID of the test subject
 - `activity` - The type of activity performed when the corresponding measurements were taken
 
+
 ### Measurements
 
 #### Description taken from the dataset features_info.txt to explain how to interpret the variables
@@ -22,7 +23,7 @@ The following explains all variables of the 'data_summary' table.
 
 #### Above information simplified:
 
-Prefix
+#### Prefix
 
 `tBodyAcc-XYZ` - time, body acceleration, XY or Z axis
 
@@ -59,13 +60,13 @@ Prefix
 `fBodyGyroJerkMag` - frequency, jerk signals of body angular velocity magnitude
 
 
-Suffix
+### Suffix
 
 `mean()` - Mean value
 
 `std()` - Standard deviation
 
-Label
+### Label
 
 `(Avg)` - Average of the mean() or std() for each variable 
 
