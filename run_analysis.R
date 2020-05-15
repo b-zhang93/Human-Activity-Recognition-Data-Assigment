@@ -1,4 +1,4 @@
-#### Step 0: Downloads our dataset into our wd ####
+#### Step 0: Download the required dataset into our WD ####
 ## Required Packages: dplyr, tidyselect ##
 
 #Download and create a subfolder with all the datasets if it doesn't exist already
@@ -12,7 +12,7 @@ if(!file.exists("./UCI HAR Dataset")){
 
 
 
-#### Step 1: Merges the training and the test sets to create one data set ####
+#### Step 1: Merge the training and the test sets to create one data set ####
 
 #training data
 train_x <- read.table("./UCI HAR Dataset/train/X_train.txt")
@@ -33,7 +33,7 @@ dataMerge <- rbind(testdata, traindata)
 
 
 
-#### Step 2: Extracts only the measurements on the mean and standard deviation for each measurement ####
+#### Step 2: Extract only the measurements on the mean and standard deviation for each measurement ####
 
 #assign column names from the features data for the original test and training x data
 features <- read.table("./UCI HAR Dataset/features.txt")
@@ -45,7 +45,7 @@ MeanAndStd <- dataMerge[,c(1,2,colindex)]
 
 
 
-#### Step 3: Uses descriptive activity names to name the activities in the data set ####
+#### Step 3: Use descriptive activity names to name the activities in the data set ####
 
 #activity_labels.txt contains the values for each label under the "activity" column
 activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")
