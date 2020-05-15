@@ -2,7 +2,7 @@
 
 The following explains all variables of the 'data_summary' table.
 
-### Identifiers
+### Factors
 
 - `subject` - The ID of the test subject
 - `activity` - The type of activity performed when the corresponding measurements were taken
