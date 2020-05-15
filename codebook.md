@@ -23,7 +23,7 @@ The following explains all variables of the 'data_summary' table.
 
 #### Above information simplified:
 
-#### Prefix
+**Prefix**
 
 `tBodyAcc-XYZ` - time, body acceleration, XY or Z axis
 
@@ -60,13 +60,13 @@ The following explains all variables of the 'data_summary' table.
 `fBodyGyroJerkMag` - frequency, jerk signals of body angular velocity magnitude
 
 
-### Suffix
+**Suffix**
 
 `mean()` - Mean value
 
 `std()` - Standard deviation
 
-### Label
+- Label
 
 `(Avg)` - Average of the mean() or std() for each variable 
 
