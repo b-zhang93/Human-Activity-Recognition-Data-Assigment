@@ -24,27 +24,45 @@ The following explains all variables of the 'data_summary' table.
 
 Prefix
 
-`tBodyAcc-XYZ` - time, body acceleration, XY or Z axis 
+`tBodyAcc-XYZ` - time, body acceleration, XY or Z axis
+
 `tGravityAcc-XYZ` - time, gravity acceleration, XY or Z axis 
+
 `tBodyAccJerk-XYZ` - time, jerk signals of body acceleration, XY or Z axis 
+
 `tBodyGyro-XYZ` - time, body angular velosity, XY or Z axis 
+
 `tBodyGyroJerk-XYZ` - time, jerk signals of body angular velocity, XY or Z axis
+
 `tBodyAccMag` - time, body acceleration magnitude
+
 `tGravityAccMag` - time, gravity acceleration magnitude
+
 `tBodyAccJerkMag` - time, jerk, body acceleration magnitude
+
 `tBodyGyroMag` - time, body angular velocity magnitude
+
 `tBodyGyroJerkMag` - time, jerk signals of body angular velocity magnitude
+
 `fBodyAcc-XYZ` - frequency, body acceleration, XY or Z axis
+
 `fBodyAccJerk-XYZ` - frequency, jerk signals of body acceleration, XY or Z axis
+
 `fBodyGyro-XYZ` - frequency, body angular velosity, XY or Z axis
+
 `fBodyAccMag` - frequency, body acceleration magnitude
+
 `fBodyAccJerkMag` - frequency, jerk, body acceleration magnitude
+
 `fBodyGyroMag` - frequency, body angular velocity magnitude
+
 `fBodyGyroJerkMag` - frequency, jerk signals of body angular velocity magnitude
+
 
 Suffix
 
 `mean()` - Mean value
+
 `std()` - Standard deviation
 
 Label
