@@ -66,7 +66,8 @@ The following explains all variables of the 'data_summary' table.
 
 `std()` - Standard deviation
 
-- Label
+
+**Label**
 
 `(Avg)` - Average of the mean() or std() for each variable 
 
