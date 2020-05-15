@@ -1,7 +1,7 @@
 #### Step 0: Downloads our dataset into our wd ####
 ## Required Packages: dplyr, tidyselect ##
 
-#this will download and create a subfolder with all the datasets if it doesn't exist already
+#Download and create a subfolder with all the datasets if it doesn't exist already
 if(!file.exists("./UCI HAR Dataset")){
         fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
         download.file(fileUrl,destfile="Data.zip")
@@ -50,7 +50,7 @@ MeanAndStd <- dataMerge[,c(1,2,colindex)]
 #activity_labels.txt contains the values for each label under the "activity" column
 activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")
 
-#merges the activity labels by activityID which now adds descriptive names to each activity
+#replaces activity numbers with the corresponding descriptive activity names 
 MeanAndStd[["activity"]] <- factor(MeanAndStd[["activity"]],
                                      levels = activity_labels[[1]],
                                      labels = activity_labels[[2]])
@@ -58,7 +58,6 @@ MeanAndStd[["activity"]] <- factor(MeanAndStd[["activity"]],
 
 
 ##### Step 4: Appropriately labels the data set with descriptive variable names #####
-
 
 ##Already completed this in STEP 2 when naming all our columns##
 
